@@ -1,0 +1,10 @@
+# Mobile app (KivyMD) - for local testing on PC
+# On Windows use: pip install "kivy[base]" kivymd
+kivy[base]>=2.3.1
+kivymd>=1.2.0
+reportlab>=4.0.0
+Pillow>=10.0.0
+
+# APK build (Linux/WSL/Docker only):
+# pip install buildozer cython
+# buildozer android debug
